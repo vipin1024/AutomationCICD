@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-25T19:04:32 IST" name="Suite" finished-at="2025-02-25T19:04:51 IST" duration-ms="19159">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.loginErrorValidation()[pri:0, instance:vipinlearns.tests.ErrorValidationsTest@1e4f4a5c]" name="loginErrorValidation" class="vipinlearns.tests.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:vipinlearns.tests.SubmitOrderTest@536f2a7e]" name="submitOrder" class="vipinlearns.tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2025-02-25T19:04:32 IST" name="Error Validations Test" finished-at="2025-02-25T19:04:50 IST" duration-ms="18278">
+      <class name="vipinlearns.tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vipinlearns.tests.ErrorValidationsTest@1e4f4a5c]" started-at="2025-02-25T19:04:32 IST" name="launchApplication" finished-at="2025-02-25T19:04:40 IST" duration-ms="8221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginErrorValidation()[pri:0, instance:vipinlearns.tests.ErrorValidationsTest@1e4f4a5c]" started-at="2025-02-25T19:04:40 IST" name="loginErrorValidation" finished-at="2025-02-25T19:04:41 IST" duration-ms="1140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vipinlearns.tests.ErrorValidationsTest@1e4f4a5c]" started-at="2025-02-25T19:04:41 IST" name="tearDown" finished-at="2025-02-25T19:04:42 IST" duration-ms="943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vipinlearns.tests.ErrorValidationsTest@1e4f4a5c]" started-at="2025-02-25T19:04:42 IST" name="launchApplication" finished-at="2025-02-25T19:04:48 IST" duration-ms="5327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productErrorValidation()[pri:0, instance:vipinlearns.tests.ErrorValidationsTest@1e4f4a5c]" started-at="2025-02-25T19:04:48 IST" name="productErrorValidation" finished-at="2025-02-25T19:04:50 IST" duration-ms="2183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vipinlearns.tests.ErrorValidationsTest@1e4f4a5c]" started-at="2025-02-25T19:04:50 IST" name="tearDown" finished-at="2025-02-25T19:04:50 IST" duration-ms="416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- vipinlearns.tests.ErrorValidationsTest -->
+    </test> <!-- Error Validations Test -->
+    <test started-at="2025-02-25T19:04:32 IST" name="Submit Order Test" finished-at="2025-02-25T19:04:51 IST" duration-ms="19159">
+      <class name="vipinlearns.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vipinlearns.tests.SubmitOrderTest@536f2a7e]" started-at="2025-02-25T19:04:32 IST" name="launchApplication" finished-at="2025-02-25T19:04:40 IST" duration-ms="8175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:vipinlearns.tests.SubmitOrderTest@536f2a7e]" started-at="2025-02-25T19:04:40 IST" name="submitOrder" data-provider="getData" finished-at="2025-02-25T19:04:44 IST" duration-ms="3872" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Vipin@1024, email=vipin1@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vipinlearns.tests.SubmitOrderTest@536f2a7e]" started-at="2025-02-25T19:04:44 IST" name="tearDown" finished-at="2025-02-25T19:04:45 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vipinlearns.tests.SubmitOrderTest@536f2a7e]" started-at="2025-02-25T19:04:45 IST" name="launchApplication" finished-at="2025-02-25T19:04:50 IST" duration-ms="5672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistoryTest()[pri:0, instance:vipinlearns.tests.SubmitOrderTest@536f2a7e]" started-at="2025-02-25T19:04:50 IST" name="orderHistoryTest" finished-at="2025-02-25T19:04:51 IST" depends-on-methods="vipinlearns.tests.SubmitOrderTest.submitOrder" duration-ms="780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vipinlearns.tests.SubmitOrderTest@536f2a7e]" started-at="2025-02-25T19:04:51 IST" name="tearDown" finished-at="2025-02-25T19:04:51 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- vipinlearns.tests.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
