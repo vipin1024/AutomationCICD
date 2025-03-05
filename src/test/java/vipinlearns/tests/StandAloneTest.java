@@ -18,6 +18,7 @@ import org.testng.Assert;
 public class StandAloneTest {
 
 	public static void main(String[] args) {
+        //new comments are added
 		String productName= "ADIDAS ORIGINAL";
     WebDriverManager.chromedriver().setup();
     WebDriver driver= new ChromeDriver();
